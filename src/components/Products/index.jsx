@@ -12,15 +12,19 @@ export const Products = () => {
       );
       const data = await response.json();
       setData(data);
-      console.log(data);
     };
     fetchData();
   }, []);
 
   return (
     <div className="products">
-      {data.map((item, index) => (
-        <ProductItem key={index} name={item.name} img={item.image} />
+      {data.map((item) => (
+        <ProductItem
+          key={item.id}
+          name={item.name}
+          img={item.image}
+          id={item.id}
+        />
       ))}
     </div>
   );

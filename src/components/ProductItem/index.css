@@ -1,4 +1,20 @@
+.product-item {
+  width: 250px;
+  height: auto;
+}
+
 .product-item__img {
   max-width: 100%;
   height: auto;
+}
+
+.product-item__link {
+  text-decoration: none;
+  color: #000000;
+
+  &:hover {
+    color: grey;
+    display: inline-block;
+    transform: scale(1.2);
+  }
 }

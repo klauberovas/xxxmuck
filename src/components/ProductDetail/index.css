@@ -1,0 +1,16 @@
+.product-detail {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-detail__title {
+  font-size: 30px;
+}
+
+.product-detail__button {
+  background-color: #383636;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+}
