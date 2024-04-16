@@ -1,10 +1,5 @@
 .product-item {
-  width: 250px;
-  height: auto;
-}
-
-.product-item__img {
-  max-width: 100%;
+  width: 280px;
   height: auto;
 }
 
@@ -15,6 +10,6 @@
   &:hover {
     color: grey;
     display: inline-block;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 }
